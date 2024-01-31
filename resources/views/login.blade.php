@@ -62,13 +62,14 @@
                         </form>
                     </div>
                     <div class="panel-footer" align="center">
-                        <div class="col-lg-12">
+                        
+                    </div>
+                    <div class="col-lg-12">
                             <a type="button" class="btn btn-success" 
-                                        href="{{ url('register') }}">
+                                        href="{{ url('Register') }}">
                                         <b>Registrasi</b>
                                     </a>
 		                </div>
-                    </div>
                 </div>
             </div>
         </div>

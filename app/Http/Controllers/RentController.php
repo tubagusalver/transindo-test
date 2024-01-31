@@ -14,14 +14,6 @@ use DatePeriod;
 
 class RentController extends Controller
 {
-    // history_id	history_rent_id	history_ref_id	history_date	
-// ref_id	
-// ref_merk	
-// ref_model	
-// ref_price	
-// ref_plat	
-// ref_status
-    // rent_id	rent_vehicle_id	rent_start_date	rent_end_date	rent_created_id	rent_created_name	rent_created_date	rent_status	rent_take_date	rent_return_date	
     public function index()
     {
         $rent   = Rent::leftjoin('dataref', 'dataref.ref_id', '=', 'rent_request.rent_vehicle_id')->get();

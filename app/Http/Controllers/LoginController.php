@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use App\Models\User;
 use DB;
 use Session;
 
@@ -46,6 +47,20 @@ class LoginController extends Controller
 
 	public function register()
 	{
-		return redirect('/register');
+		return view('register');
+	}
+
+	public function registerasi_account(Request $request)
+	{
+		$user = new User;
+		$user->username_user		= $request->registrasi_email;
+		$user->password_user		= $request->registrasi_password;
+		$user->nama_user			= $request->registrasi_nama;
+		$user->alamat_user			= $request->registrasi_alamat;
+		$user->nomor_telepon_user	= $request->registrasi_nomortelepon;
+		$user->nomor_sim_user		= $request->registrasi_nomorsim;
+		$user->save();
+
+		return redirect('/');
 	}
 }

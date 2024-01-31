@@ -16,7 +16,7 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
-    <title>FRAPPE - LOGIN</title>
+    <title>SYSTEM - LOGIN</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -36,7 +36,6 @@
             <div class="col-md-4 col-md-offset-4">
                 <div class="login-panel panel panel-default">
                     <div class="panel-heading">
-                        <img src="{{ asset('images/frappe.png') }}?v=19" width="100%" >
                     </div>
                     <div class="panel-body" id="first"><br>
                         @if (session('alert'))
@@ -63,7 +62,12 @@
                         </form>
                     </div>
                     <div class="panel-footer" align="center">
-                    <font face="verdana" color="green">2018 | PT TRACON INDUSTRI</font>
+                        <div class="col-lg-12">
+                            <a type="button" class="btn btn-success" 
+                                        href="{{ url('register') }}">
+                                        <b>Registrasi</b>
+                                    </a>
+		                </div>
                     </div>
                 </div>
             </div>

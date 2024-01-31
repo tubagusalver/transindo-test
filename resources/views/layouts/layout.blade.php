@@ -11,7 +11,7 @@
     <meta name="author" content="">
     <meta name="csrf-token" content="{{ csrf_token() }}" />
     
-    <title>FRAPPE (inFRAstructure Panel PagE)</title>
+    <title>System Sewa Mobil</title>
 
     <!-- jQuery -->
     <script src="js/jquery.min.js"></script>

@@ -21,6 +21,8 @@ use App\Http\Controllers\ProfileController;
 Route::get('/', [LoginController::class, 'Login'])->name('Login');
 Route::get('PostLogin', [LoginController::class, 'PostLogin'])->name('PostLogin');
 Route::get('logout', [LoginController::class, 'logout'])->name('logout');
+Route::get('register', [LoginController::class, 'Register']);
+
 
 Route::get('Dashboard', [DashboardController::class, 'Dashboard']);
 

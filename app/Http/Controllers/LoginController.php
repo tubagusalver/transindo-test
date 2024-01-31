@@ -43,4 +43,9 @@ class LoginController extends Controller
 
 	 	return redirect('/');
 	}
+
+	public function register()
+	{
+		return redirect('/register');
+	}
 }

@@ -1,3 +1,10 @@
+<p>Nama : Tubagus Alver Alifiady Kartawijaya</p>
+<p>Attention !</p>
+<p>Untuk mengakses project test web programmer (Sewa Mobil) ini, anda harus import database yang sudah tersedia di folder ini dengan nama transindo_sewa_mobil.sql</p>
+
+<br>
+<br>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
